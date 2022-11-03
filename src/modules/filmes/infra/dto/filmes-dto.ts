@@ -1,4 +1,4 @@
-export interface IProps{
+export interface IFilmeDTO{
     title: string,
     producer: string,
     director: string,

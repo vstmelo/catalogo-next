@@ -1,6 +1,6 @@
 import { AppError } from "@shared/infra/errors/AppError";
-import { GetFilmesService } from "@shared/infra/typeorm/service/getFilmes";
-import { Search } from "@shared/infra/typeorm/service/search-filmes";
+import { GetFilmesService } from "modules/filmes/service/getFilmes";
+import { Search } from "modules/filmes/service/search-filmes";
 import { NextApiRequest, NextApiResponse } from 'next';
 
 const service = new GetFilmesService();
